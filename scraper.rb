@@ -2,8 +2,8 @@ require "scraperwiki"
 require "json"
 require "open-uri"
 
-FETCH_FROM_REQUEST_ID = 5
-FETCH_TO_REQUEST_ID = 1195
+FETCH_FROM_REQUEST_ID = 1195
+FETCH_TO_REQUEST_ID = 1202
 base_url = "https://opramachine.com"
 
 (FETCH_FROM_REQUEST_ID..FETCH_TO_REQUEST_ID).each do |id|
