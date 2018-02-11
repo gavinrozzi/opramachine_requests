@@ -4,6 +4,7 @@ require "open-uri"
 
 FETCH_FROM_REQUEST_ID = 1
 FETCH_TO_REQUEST_ID = 1234
+
 base_url = "https://opramachine.com"
 
 (FETCH_FROM_REQUEST_ID..FETCH_TO_REQUEST_ID).each do |id|
