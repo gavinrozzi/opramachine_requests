@@ -3,7 +3,7 @@ require "json"
 require "open-uri"
 
 FETCH_FROM_REQUEST_ID = 1
-FETCH_TO_REQUEST_ID = 1685
+FETCH_TO_REQUEST_ID = 1713
 
 
 base_url = "https://opramachine.com"
